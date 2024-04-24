@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>Form</title>
+</head>
+<body>      
+    <h2>STUDENT REGESTRATION FORM</h2>
+    <form action="message.html">
+        <fieldset>
+            <legend>PERSONAL DETAILS</legend>
+
+            <label for="name">User Name</label> 
+            <input type="text" id = "name" placeholder="Ex:sachin"><br>
+
+            <label for="dob">DOB</label>
+            <input type="date" id = "dob"><br>
+
+            <label for="">Email</label>
+            <input type="text" id = "mail" placeholder="your@gmail.com"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>EDUACTION DETAILS</legend>
+
+            <label for="">Department</label><br>
+
+            <input type="radio" id ="cs" name="dept" >
+            <label for="cs">Computer Science</label>
+
+            <input type="radio" id ="ec" name="dept">
+            <label for="ec">Electronic Communication</label>
+
+            <input type="radio" id ="ci" name="dept">
+            <label for="ci">CIVIL</label>
+
+            <input type="radio" id ="mech" name ="dept">
+            <label for="mech">MECHANICAL</label><br><br>
+
+            <label for="">Year of Passing</label>
+            <input list="yop" >
+            <datalist id ="yop">
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+            </datalist>
+            <br>
+            <br>
+            <label for="">SKILLS</label><br>
+            <input type="checkbox" id="skill">
+            <label for="skill">HTML</label><br>
+
+            <input type="checkbox" id="skill">
+            <label for="skill">CSS</label><br>
+
+            <input type="checkbox" id="skill">
+            <label for="skill">JAVA</label><br>
+
+            <input type="checkbox" id="skill">
+            <label for="skill">MYSQL</label><br>
+
+            <input type="checkbox" id="skill">
+            <label for="skill">JDBC</label><br><br>
+
+            <input type="submit">
+        </fieldset>
+
+
+
+    </form>
+    
+</body>
+</html>
